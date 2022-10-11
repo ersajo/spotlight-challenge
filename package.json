@@ -17,6 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "backend": "node ./node_modules/nodemon/bin/nodemon.js backend/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
