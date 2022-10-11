@@ -1,3 +1,4 @@
+import { Waveform } from '@uiball/loaders'
 import logo from './logo.svg';
 import './App.css';
 
@@ -12,6 +13,7 @@ function App() {
         <h1 className="text-3xl font-bold underline text-red-500">
           Hello world!
         </h1>
+        <Waveform color='white' speed={2}/>
       </header>
     </div>
   );
