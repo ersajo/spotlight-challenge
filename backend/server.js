@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require('cors')
-const controller = require("./controller/ligths");
+const controller = require("./controller/lights");
 const app = express();
 const PORT = 4000;
 
