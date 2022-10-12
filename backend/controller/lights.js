@@ -1,4 +1,4 @@
-const POPULATION_SIZE = 12;
+const POPULATION_SIZE = 20;
 const GENERATIONS = 10;
 const nonValidFields = [1, 2];
 
@@ -219,7 +219,7 @@ const run = async (req, res) => {
   data = data.filter((distribution) => distribution.coverage === 1);
   res
     .status(201)
-    .json({ data, solutions: data.length });
+    .json({ solutions: data });
 }
 
 module.exports = {
